@@ -17,37 +17,37 @@ int main(void)
 
 		for (i = '0'; i <= '9'; i++)
 
-		{
+	{
 
-			for (k = '0'; k <= '9'; k++)
+	for (k = '0'; k <= '9'; k++)
 
-			{
+	{
 
-				if (c < i && i < k)
+	if (c < i && i < k)
 
-				{
+	{
 
-					putchar(c);
+	putchar(c);
 
-					putchar(i);
+	putchar(i);
 
-					putchar(k);
+	putchar(k);
 
-					if (c != '7')
+	if (c != '7')
 
-					{
+	{
 
-						putchar(',');
+	putchar(',');
 
-						putchar(' ');
+	putchar(' ');
 
-					}
+	}
 
-				}
+	}
 
-			}
+	}
 
-		}
+	}
 
 	}
 
